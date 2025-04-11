@@ -420,11 +420,12 @@ namespace VncSharpCore
         ///// <summary>
         ///// True if view-only mode is desired (no mouse/keyboard events will be sent).
         ///// </summary>
-        public bool ViewOnly
-        {
-            get { return viewOnlyMode; }
-            set { viewOnlyMode = value; }
-        }
+        //[DefaultValue(false)]
+        //public bool ViewOnly
+        //{
+        //    get { return viewOnlyMode; }
+        //    set { viewOnlyMode = value; }
+        //}
 
         /// <summary>
         /// Set the remote desktop's scaling mode.
